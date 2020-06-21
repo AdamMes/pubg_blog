@@ -1,0 +1,165 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Teko", "Oswald", sans-serif;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.min-height-900px {
+  min-height: 900px;
+}
+
+.max-height-600px {
+  max-height: 600px;
+}
+
+.ml-center {
+  margin-left: 25%;
+}
+
+/* Navbar */
+
+nav li {
+  font-size: 25px;
+}
+
+.margin-for-nav {
+  margin-top: 2px;
+}
+
+/* END Navbar */
+
+/* index Page */
+
+.img-bg {
+  background-image: url(../images/image-7.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  bottom: 0px;
+}
+
+#header-content h1 {
+  padding-top: 60px;
+  font-size: 80px;
+}
+
+#header-content p {
+  font-size: 25px;
+}
+
+#header-content button {
+  color: #ffc107;
+  background-color: #343a40;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+#header-content button a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+button:hover {
+  animation: swing 1s ease;
+  animation-iteration-count: 1;
+}
+@keyframes swing {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.main-content {
+  background-color: #f0f0f0;
+  margin-top: 200px;
+}
+
+.hp-bg-2 {
+  background-image: url(../images/image-6.png);
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 15px;
+  margin-bottom: 50px;
+}
+
+/* END index Page */
+
+/* Signup Page */
+
+.fa-eye {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  cursor: pointer;
+  color: #999;
+}
+
+.fa-eye.active {
+  color: dodgerblue;
+}
+
+/* END Signup Page */
+
+/* Signin Page */
+
+.faeye-2 {
+  bottom: 40px;
+  right: 10px;
+}
+
+/* END Signin Page */
+
+/*  Blog Page */
+
+.dropdown-toggle-no-arrow::after {
+  display: none;
+}
+
+.card-header {
+  background-color: #fbe986;
+}
+
+/* END Blog Page */
+
+/* tpl - footer */
+
+footer {
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  line-height: 20px;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* END tpl - footer */
